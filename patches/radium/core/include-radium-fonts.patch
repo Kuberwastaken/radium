@@ -1,0 +1,27 @@
+--- a/chrome/browser/resources/chrome_os/accessibility/switch_access/switch_access_app.html
++++ b/chrome/browser/resources/chrome_os/accessibility/switch_access/switch_access_app.html
+@@ -1,6 +1,6 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
++  <link rel="stylesheet" href="chrome://resources/css/radium-fonts.css">
+   <link rel="stylesheet" href="chrome://resources/css/inter.css">
+   <link rel="stylesheet" href="chrome://resources/css/roboto.css">
+   <link rel="stylesheet" href="chrome://resources/css/text_defaults.css">
+ </head>
+@@ -8,6 +8,7 @@
+   <div id="switch-access-app"></div>
+   <script type="module" src="switch_access_app.js"></script>
+ </body>
+ </html>
+
+--- a/chrome/browser/resources/chrome_os/accessibility/switch_access/switch_access_app.js
++++ b/chrome/browser/resources/chrome_os/accessibility/switch_access/switch_access_app.js
+@@ -1,6 +1,6 @@
+ // Copyright 2021 The Chromium Authors. All rights reserved.
+ 
+-import {SwitchAccessApp} from './switch_access_app.js';
++import {SwitchAccessApp} from './switch_access_app.js';
+ 
+ const app = new SwitchAccessApp();
+ app.initialize();

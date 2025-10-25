@@ -1,3 +1,5 @@
+radium-fonts.css chrome/browser/resources/css/radium-fonts.css
+
 favicons/favicon_bookmarks_16.png chrome/app/theme/default_100_percent/common/favicon_bookmarks.png
 favicons/favicon_conflicts_16.png chrome/app/theme/default_100_percent/common/favicon_conflicts.png
 favicons/favicon_downloads_16.png chrome/app/theme/default_100_percent/common/favicon_downloads.png

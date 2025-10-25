@@ -1,0 +1,41 @@
+/* Radium Custom Font Configuration */
+/* Copyright 2025 The Radium Authors */
+
+/* Import custom fonts */
+@import "chrome://resources/css/inter.css";
+@import "chrome://resources/css/jetbrains-mono.css";
+
+/* Global font variables */
+:root {
+  --radium-font-family: 'Inter', 'Roboto', 'Noto Sans', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+  --radium-font-family-mono: 'JetBrains Mono', 'Source Code Pro', 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+/* Apply Inter as default font */
+html, body {
+  font-family: var(--radium-font-family);
+}
+
+/* Apply JetBrains Mono for monospace content */
+code, pre, .monospace, .code, .terminal {
+  font-family: var(--radium-font-family-mono);
+}
+
+/* Specific UI components */
+.omnibox, .location-bar {
+  font-family: var(--radium-font-family);
+}
+
+.tab-title, .bookmark-title {
+  font-family: var(--radium-font-family);
+}
+
+/* Settings and UI pages */
+.settings-page, .chrome-page {
+  font-family: var(--radium-font-family);
+}
+
+/* Developer tools */
+.devtools, .console {
+  font-family: var(--radium-font-family-mono);
+}
