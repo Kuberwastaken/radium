@@ -56,7 +56,4 @@ Any content imported from other projects retains its original license (for
 example, any original unmodified code imported from ungoogled-chromium remains
 licensed under their [BSD 3-Clause license](LICENSE.ungoogled_chromium)).
 
-## More documentation (soon)
-> [!NOTE]
-> We will add more documentation along with design and motivation guidelines in the future.
-All docs will be linked here along with other related content.
+## Yeah, there's no documentation lol
